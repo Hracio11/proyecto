@@ -4,29 +4,86 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Nombre</title>
-    
-<!-- CSS only -->
+
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 </head>
 <body>
     <div class="container">
-        <header class = "row" >
-            <div class="clo-md-3">Logo</div>
-            <div class="clo-md-6">
-                <ul>
-                    <li>Menu</li>
-                    <li>Conciertos</li>
-                    <li>Tendencias</li>
-                    <li>Login</li>
-                </ul>
+    <header class="row">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="col-md-3">
+                <a class="navbar-brand" href="#">Logo de musiquita</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
             </div>
-            <div class="clo-md-3">
+           
+            
+            <div class="col-md-6">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Conciertos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tendencias</a>
+                    </li>                  
+                </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
+              <form class="form-inline my-2 my-lg-0">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Iniciar Sesion</button>
+              </form>
+            </div>
+          </nav>
+    </header>
+    </div> 
+
+    <div class="container">
+        <div class="row">
+            <div class="portada1">
+                <div class="col-md-8">
+                    <h1>Los mejores conciertos que veras, con alta resolucion y mucho mas</h1>
+                </div>
+                <div class="col-md-4">
+                    <h5> que esperas para suscribirte?! y disfrutar de nuestros Conciertos</h5>
+                </div>
                 <form action="">
-                    <input type="Buscar">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
                 </form>
             </div>
-        </header>
+        </div>
     </div>
+
+    <div class="container">
+        <div class="row">
+            <h1>Que esperas para armar tu plylist?!!</h1>
+            <h5>Todas las categorias que te gustan estan aqui</h5>
+
+            <div class="col-12">
+
+                <img src="https://pymstatic.com/106888/conversions/citas-canciones-rock-default.jpg" width="200px" alt="">
+                <h6>rock</h6>
+                <img src="https://zonagallos.com/wp-content/uploads/2020/12/trueno-nicki-nicole-en-vivo-mamichula.jpg" width="200px" alt="">
+                <h6>trap</h6>
+                <img src="https://diariousach.cl/diario/site/artic/20220325/imag/foto_0000000220220325143527/402b9a788e28e069c0bac153bb8d7d10cbf35384w.jpg" width="200px" alt="">
+                <h6>Balada</h6>
+                <img src="https://www.costumbres.org/wp-content/uploads/2020/05/Salsa-Colombiana.jpg" width="200px" alt="">
+                <h6>Salsa</h6>
+                <form action="">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Màs categorias</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
