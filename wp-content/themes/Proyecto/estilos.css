@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+
+body{
+    background-image: radial-gradient(circle at 23.13% -7.62%, #4b6565 0, #465958 16.67%, #3e4847 33.33%, #323232 50%, #251d20 66.67%, #1b0d15 83.33%, #14000c 100%);    
+    color: white;
+    font-family: 'Karla', sans-serif;
+}
+.menu1{
+    list-style-type: none;
+    font-family: 'Karla', sans-serif;
+}
+.uno, .dos{
+    float: left;
+    text-align: center;
+    width: 100px;
+    margin: 20px;
+    font-weight: bold;
+}
+.menu2{
+    list-style-type: none;
+    font-family: 'Karla', sans-serif;
+}
+.redes{
+    list-style-type: none;
+}
+.tres{
+    float: left;
+    text-align: center;
+    width: 5em;
+}
+.cabecera{
+    background-color: rgb(29, 180, 122);
+    height: 60pxx;
+}
+.presentacion{
+    background-color: rgb(29, 180, 122);
+    height: 200PX;
+}
+.categorias{
+    text-align: center;
+    margin-block: 30px;
+}
+.resgistrarse{
+    background-color: rgb(29, 180, 122);
+
+}
+.canciones1{
+    margin-block: 25px;
+}
+.canciones2{
+    background-color: rgb(29, 180, 122);
+}
+.primera{
+    background-color: rgb(24, 167, 136);
+}
+.ultima{
+    background-color: rgb(29, 180, 122);
+    text-align: center;
+    font-weight: bold;
+    height: 40px;
+}
+.frase1{
+    margin: 20px 0 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.frase2{
+    margin: 40px;
+}
+.frase3{
+    font-weight: bold;
+}
+.barrabuscar{
+    width: 50%;
+    height: 40px;
+}
+.btn1, .btn2, .btn4, .btn5, .btn6{
+    background-color: rgb(61, 61, 70); 
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+.elige{
+    margin-block: 25px;
+    text-align: center;
+    font-weight: bold;  
+}
+.mayorinfo{
+    margin-block: 100px;
+    margin-left: 40px;
+    margin-right: 70px;
+    text-align: justify;
+}
+.btn3{
+    background-color: rgb(29, 180, 122);
+    color: white;
+    font-weight: bold;  
+    border: none;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+.logo{
+    margin-block: 15px ;
+}
+.btn1{
+    margin-block: 20px ;
+    width: 70%;
+    height: 30px;
+}
+.btn2{
+    width: 20%;
+    height: 40px;
+}
+.frase5{
+    margin-block: 30px;
+    margin-right: 100px;
+    font-weight: bold;
+}
+.email{
+    width: 60%;
+    height: 40px;
+}
+.btn4{
+    width: 20%;
+    height: 40px;
+}
+.chico{
+    margin-left: -11px ;
+}
+.generos{
+    margin: 30px auto;
+}
+.btn5{
+    width: 40%;
+    height: 40px;
+    margin-left: 120px;
+}
+.cancion1, .cancion2{
+    margin-block: 50px;
+}
+.ML, .queen{
+    margin-top: 50px;
+}
+
+.tiago, .SE, .romeo, .Queen{
+    margin-left: 30px;
+}
+
+.tiago, .romeo{
+    margin-top: 20px;
+}
+.SE, .Queen{
+    margin-top: 100px;
+}
+.ChicoE, .Give{
+    margin-top: 20px;
+}
+.inicioSesion, .cuatro{
+    background-color: rgb(29, 180, 122);
+}
+.menu0{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15px;
+}
+.proceso{
+    background-color: rgb(29, 180, 122);
+    margin: 30px;
+}
+.sucribirse2{
+    margin-block: 50px;
+}
+a{
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 0.625%;
+    color: white;
+}
+
+.btn6{
+    width: 20%;
+}
+/*las estrellas*/
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+} 
+#form p {
+    text-align: center;
+}
+  
+#form label {
+    font-size: 20px;
+}
+  
+input[type="radio"] {
+    display: none;
+}
+  
+label {
+    color: grey;
+}
+  
+.clasificacion {
+    direction: ltr;
+    unicode-bidi: bidi-override;
+}
+  
+label:hover,label:hover ~ label {
+    color: orange;
+}
+  
+input[type="radio"]:checked ~ label {
+    color: orange;
+}

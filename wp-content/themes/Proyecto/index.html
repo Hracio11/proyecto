@@ -1,246 +1,361 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Nombre</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concert Plus+</title>
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <div class="container">
-    <header class="row">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="col-md-3">
-                <a class="navbar-brand" href="#">Logo de musiquita</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-            </div>
-           
-            
-            <div class="col-md-6">
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Menu</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Conciertos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Tendencias</a>
-                    </li>                  
-                </ul>
+    <header>
+        <div class="container cabecera">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="index.html"><img class="logo" src="imagenes/logo_white_large.png" width="250px" alt=""></a> 
+                </div>
+                <div class="col-md-6 bxmenu1">
+                    <ul class="menu1">
+                        <li class="uno"><a href="menu.html">Menu</a></li>
+                        <li class="uno"><a href="conciertos.html">Conciertos</a></li>
+                        <li class="uno"><a href="tendencias.html">Tendencias</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <form action="">
+                        <button class="btn1"><a href="iniciarsesion.html">Iniciar Sesión</a></button>
+                    </form>
                 </div>
             </div>
-            <div class="col-md-3">
-              <form class="form-inline my-2 my-lg-0">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Iniciar Sesion</button>
-              </form>
-            </div>
-          </nav>
+        </div>
     </header>
-    </div> 
 
-    <div class="container">
+    <div class="container presentacion">
         <div class="row">
-            <div class="portada1">
-                <div class="col-md-8">
-                    <h1>Los mejores conciertos que veras, con alta resolucion y mucho mas</h1>
-                </div>
-                <div class="col-md-4">
-                    <h5> que esperas para suscribirte?! y disfrutar de nuestros Conciertos</h5>
-                </div>
-                <form action="">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-                </form>
+            <div class="col-md-7">
+                <h1 class="frase1">Los mejores conciertos que veras, con alta resolucion y mucho más</h1>
             </div>
+            <div class="col-md-5">
+                <h4 class="frase2">
+                    QUE ESPERAS PARA SUSCRIBIRTE??
+                    Y DISFRUTAR DE NUESTROS DESCUENTOS
+                </h4>
+            </div>
+            <center><form  action="buscar">
+              <input class="barrabuscar" type="text">
+                <button class="btn2">Buscar</button>
+            </form>          </center>
         </div>
     </div>
 
-    <div class="container">
+    <div class="container categorias">
         <div class="row">
-            <h1>Que esperas para armar tu plylist?!!</h1>
-            <h5>Todas las categorias que te gustan estan aqui</h5>
+            <h1 class="frase3">QUE ESPERAS PARA ARMAR TU PLAYLIST??</h1>
+            <H4 class="frase4">TODAS LAS CATEGORIAS QUE TE GUSTAN ESTAN AQUI!!</H4>
 
-            <div class="col-12">
-
-                <img src="https://pymstatic.com/106888/conversions/citas-canciones-rock-default.jpg" width="200px" alt="">
-                <h6>rock</h6>
-                <img src="https://zonagallos.com/wp-content/uploads/2020/12/trueno-nicki-nicole-en-vivo-mamichula.jpg" width="200px" alt="">
-                <h6>trap</h6>
-                <img src="https://diariousach.cl/diario/site/artic/20220325/imag/foto_0000000220220325143527/402b9a788e28e069c0bac153bb8d7d10cbf35384w.jpg" width="200px" alt="">
-                <h6>Balada</h6>
-                <img src="https://www.costumbres.org/wp-content/uploads/2020/05/Salsa-Colombiana.jpg" width="200px" alt="">
-                <h6>Salsa</h6>
-                <form action="">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Màs categorias</button>
-                </form>
-
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <a href="rock.html"><img src="imagenes/queen.jpg" width="200px" alt=""></a>
+                            <h4>ROCK</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="Trap.html"><img src="imagenes/tiago.jpg" width="200px" alt=""></a>
+                            <h4>TRAP</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="Bachata.html"><img src="imagenes/romeosantos.jpg" width="200px" alt=""></a>
+                            <h4>BACHATA</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="Reggaeton.html"><img src="imagenes/badbunny.jpg" width="200px" alt=""></a>
+                            <h4>REGUETON</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <button class="btn3">
+                        <a href="categorias.html">
+                            MÁS CATEGORIAS
+                        </a>
+                    </button>
+                </div>                
             </div>
         </div>
     </div>
-
-    <div class="container">
+    
+    <div class="container resgistrarse">
         <div class="row">
             <div class="col-md-5">
-                <img src="https://img.freepik.com/foto-gratis/chico-escuchando-musica-su-telefono_53876-42152.jpg" width="250px" alt="">
+                <img class="chico" src="imagenes/chicoescucha.jpg" width="400px" alt="">
             </div>
             <div class="col-md-7">
-                <h2>
-                    los amas destacados conciertos que se han visto en el mundo, en un solo lugar
-                </h2>
+                <h1 class="frase5">Los mas destacados conciertos que se han visto en el mundo,en un solo lugar</h1>
 
-                <form action="">
-                    <label for="">Nombre del usuario</label>
-                    <input type="text" >
-                    <label for="">contraseña</label>
-                    <input type="text" >
-                    <label for="">Email</label>
-                    <input type="text" >
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Subcribirse</button>
+                <form class="registrar1" action="Suscribirse1">
+                    <input class="email" type="text" name="email">
+                    <button class="btn4"><a href="sucribirse1.html">Suscribirse</a></button>
                 </form>
             </div>
         </div>
     </div>
 
-    <div class="container">
+    <div class="container canciones1">
         <div class="row">
-            <div class="col-md-8">
-                <div class="col-md-4">
-                    <img src="data:image/jpeg;base64,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" alt="">
-                </div>
-                <div class="col-md-8">
-                    <h4>Flor de loto</h4>
-                    <h6>3 AM</h6>
-                </div>
-                <div class="col-md-4">
-                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBhUTBwgVFRUXGRwWFxgXGSIgIRseHyAcIB8aFxshHCwjICAlHiIbJTUhJisrMS46GiI0RDMzNyotLisBCgoKDg0OGhAQGi0lHR8vMy0tLS8tNy0vNzU3LjArNS0tMC8rLTUrLS0tKystLS0rLS0tLS0tLS0tLzUtLS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABQYDBAcCAQj/xABHEAACAQMCAwMHBwkFCQEAAAAAAQIDBBEFIQYSMUFRYRMiMnGBkbEUIyQ0QnKhFRZSYrKzwdHwU3OCk8IlMzZDRFR0ktIH/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EACgRAQABAgQFBAMBAAAAAAAAAAABAiEREjHhQVFhcZEyobHBgdHxA//aAAwDAQACEQMRAD8A4aAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADb03HyjeKe3ak12djJn6NGgm7Gm22107sePiRGkwlUuGoLL5X8U/gS7pSdrHDj1l9pd0fEDHV+TNfUafTuf8JEXq1KnR1CUaMMJY2322Werz1ySdSG2eqS3x/WxGaw86tVx/aT+LA0wSNnpkbq25vl9KLzjklzp4/SzycmPDmz4G0uHbhrzeeXjTpSkvethNlyyhATf5u3P9hcf5D/+jFLh++XSHvTXxWPxGK5Z5IkG1e2F1YqPymljmzh5TTx13TZqhJiY1AAEAAAAAAAAAAAAAAAAAAAAAAAAfYycZZi8Nbpm+9WryglUpwk1ndrd578PDfjgjwBurVLuLzGUV6oR+PLk1Kk51ajlUllt5b72+08gCUtMK3jmOdn8ZLPs6+w22ovTd1/zP9Jq0PqkPU/2pG/iVTS44eX5SXb3RhhLv69EbibQ1EtezjCN1F+TT3MaUFjzTLQaVRbd/wADF2GmXzWmlYW6S+zNv/Mkv4GPRKlClOTuLGFVbbTcljrnHLJb+vJ91r6vb/3Uv31YxacvmpeuPwkc6db9W4m/4+lzp6nwn+QZ0/yAoXLlGVOrjnhFea3GSzGXTmW0Xu+rwiNhSnVjm0p2Um/sqMFL/wBaiT92SH9hko0XVe3t8F3mssYaJFccY+tvZNfkXXZ08x0XfP8A21LGO/Lj6uz2nq30DiK4rKMNKppvbMqNvFe1uKS9poa5act6uaHSnSXTuhFEbOjCMvOpr3DJfh43ary01TF7ddlhhpGvr07KMdtvMoexfwMFbStYz9KtaP8AjdBe7f4ELCipSxCms+ok61tWpW9CVFbxhlNL0cVajT9jJl7eN0xp6+dnq60Ok6mFa0kmlv5eEJZxvt5acUs5x7DB+b1nJrmvY0+/52lU/wBcMerc05wUHhHx9epcpmp5e+zNfcMXFvps69veUqtOHLzuEsuPM+VKS6Jt+LIEs1Z8nB9TH2q8I+6MmVkxOpXERhMcf2AAMAAAAAAAAAAAAAAAAJvS5Wde2jGUn5VZSjKSjGS3fmycdn4SaXjnY3qtSFGwUZ2STVSeVJzyvNp9UmmmVY3oavfRoRg6qcY+jzRjLl6bJyTaWy2GK4wkVeU4Lzbems7faf7U3+BmjY1a8c0raos/qSlH2NLK9z9ZES1jUm/r1Rfdk1+CwatavWryzXqyk++Tb+Jc0lkpxJGVKpRhUSUoUkmu5udSWH4+ca+nfVp/ej8JkeSWmr6HU+9D4VCU2lYm7et6MpwzKm+X9LG3v6F04J4astdmo1Krg6bbny4XPTecNN5zJTwm8dJJdmXCcF8R3vD+op29RunJpVKbfmyXfjsku/2dDtem2ujX9aNzptKMZNNc1PbmysNTj39HvumkdWFY1f8A/O6moqVSwvcy3jy1e3lfKnzrtwk+hReJ+Gamka0qXM5vEcPlaUm0tod+7S9Z3u0jyUmnHfMm/U5P+vaeaztpVot08yi8ptei+mYvseG1nxJTNnT/AEvXPdwjSuE7+715UJUJU5Y5pc6a5Y/pNd3d35R0rVuB7OWhRo2cIxlFr5yceaTWXnD69XtjCLdmlOumqa535ifbjPT3nq6j5KfLVWH1/kVh+feKtHtNL1eVO2qylypKTljeXVqKS6LZY33yVqouST5lj1nf+JdUseF9Nk9NtoRr1Mtdrbec1Jvq0u5vd7d+OFV7i4jf+VdeTqc3Pzt5fNnPNnvyEe7z/gx7f9Uv3T/r2laLLqO3BsM/aup/hTh/MrRx4y6Vzp2AAVgAAAAAAAAAAAAAAAAAAAAACT036jU+/D4VCMJLTfqVT78PhULGqw27KDqXkIqajzSjHL6LLSy/BdTuXCmiQ0t81prCqJ7TUcNP2JvD8cnClHzc8y6pYzv2747tuvq7y8cOcTabpNo/JaXDmxyuSm3NvrzPKxh9MJpeB0ZdbvL12+eTHt8SDu+J7SN+oSqqLl3vaPZmbxt6yqcQcVXFS6lTtqGMRi22+nNCLzjouvV9xR6+qShWbjU69Xnqu1Z8UZo9MNVeqXaKGsL5R5k1Jdk4tOL7Mwae68STp33lpZlPLfa2cW0XiGnb27j5bpzNLrv2RS7FnLb8STlxZ5N4qUc7LK9aTw/eaReuKNS4YtpSlq1GFSo/s45pvuXh63g5JxBqVhdVpfkzSIUIvZ7uTaTTTXNtB5S9HG2VlpmLVr+lWrZt7dwTXTOU33rb8CMm5S3aCNvXPN4StEmvOrXEvcqC3/ErRZuIW/zVsVn7Vy/fOK/gVk4xx7z8t1a+PgABWQAAAAAAAAAAAAAAAAAAAAAJrhqVg68oajcyp5w6ck8LnWcKcuWTinn0knh47N1CgLE4LVdU6Gn1eW60ueWspyrZUl+lCUIRUo+KbRid/b06WaenUs77N1XthYefLY332x2eJH6ZrleyoeSr041aDeXSn0T7ZU5dYSx2x9qfQknYUb+3c9DqyqYTcqMseVh7FtUj+tD2xRqKo4rMckrxFqtSlrNSNOzobKCcnSUm/Mj1c8rw9hFQ1i+ov5idOH3KNKP4xppkzZ8N3/FfFtahpjhzxgqjcnhYUYLdpPq2l0IKOlalKbUNNrSabT5acnhrZrKT7S0xEUxiV45pjqy1Nc1Wo99TrLZLapJLbwTPH5Ur1PriVVfr5b/wzzzL1Zx4MyS0PU4QTq2bh41Zwp/tyjg8x0vEc1tStYeuspfu+cZqEy1PNRUbqnFUbtx5U1GnWlss5bUJ+gk3l+cobvtbMV5b/JsKopRnjeM447/Oi+jj3Pt9RmdPSvIpVtcpebn/AHdKpJvPe5Qhkz2esaNZwlGpXr14NY5ZUoKKeU+aKdWWJYWObGcNkzxCxRj/AFp8Rz/2JZR7oVX760/5FeJbiHU7XUatJWFtKnTp0/JpSlzP05ybzjvl036dSJMQV62AAVkAAAAAAAAAAAAAAAAAAAAAAAAPdKpUo1VKjNxknlNPDTXan2M8ACcfF/EflHKnrNaEn1cJODfrccZ9pG3Wo314/pl7Unn9ObfxZqgmELjIACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAy21vVurmNO3hmU5KMV3tvCXvLBDgrUqlRxp3dq2s5SuKbe2z6S7AK0CwPhK7Wc6jZ7JN/SafR4w/S6br3o+y4QvY+lf2i2Ut7mn0eMP0ujyt/ECvAzXlrWsrudO5jicJOEl3OLaayvFGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACT4YeOJbb+/pftxO+XPBOj/ACxuta15QU6kI1FXcuWKTdRrMU4pcvJiLeG2umW/z/oFxStNdoVLiWIQq05SfclJNvC8DpL1u4VKK/O6Lkrh1JP5ZUXNSy/m17MbdNgLjc8GaLQouUdOr80KU4vNVRxThONNpS5fS5MSctnhJZ3wb1pwRpVZuFxZ3WeSnRny1Yy5ViT5ZNpNKKfNtl+cn3HOamq3c5t/ncl9I51i9qr5lvel12eyw9+r3PdzrF1Us6kaHFqjOVRSg/ltXEI4jmPf15vf4FFD4x24uvP/ACK37yRDklxLc0rziO5qW0+aE61ScX3qU5NPfvRGkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf//Z" alt="">
-                </div>
-                <div class="col-md-8">
-                    <h4>Flor de loto</h4>
-                    <h6>3 AM</h6>
-                </div>
-                <div class="col-md-4">
-                    <img src="data:image/jpeg;base64,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" alt="">
-                </div>
-                <div class="col-md-8">
-                    <h4>Flor de loto</h4>
-                    <h6>3 AM</h6>
-                </div>
-                <div class="col-md-4">
-                    <img src="data:image/jpeg;base64,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" alt="">
-                </div>
-                <div class="col-md-8">
-                    <h4>Flor de loto</h4>
-                    <h6>3 AM</h6>
+            <div class="col-md-8 cancion1">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col-4">
+                                <a href="https://www.youtube.com/watch?v=xRWqAbKAZrg"><img class="Sola" src="imagenes/solatiago.png" width="150px" alt=""></a> 
+                                <a href="https://www.youtube.com/watch?v=OX-us7PEfkc"><img class="ML" src="imagenes/musicaligera.jpg" width="150px" alt=""></a> 
+                            </div>
+                            <div class="col-8">
+                                <div class="tiago">
+                                   <h4>Sola</h4>
+                                    <form>
+                                        <p class="clasificacion">
+                                        <input id="radio1" type="radio" name="estrellas" value="5"><!--
+                                        --><label for="radio1">★</label><!--
+                                        --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+                                        --><label for="radio2">★</label><!--
+                                        --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+                                        --><label for="radio3">★</label><!--
+                                        --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+                                        --><label for="radio4">★</label><!--
+                                        --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+                                        --><label for="radio5">★</label>
+                                        </p>
+                                    </form>
+                                    <h5>Tiago pzk</h5> 
+                                </div>
+                                
+                                <div class="SE">
+                                    <h4>De Musica Ligera</h4>
+                                    <form>
+                                        <p class="clasificacion">
+                                        <input id="radio1" type="radio" name="estrellas" value="5"><!--
+                                        --><label for="radio1">★</label><!--
+                                        --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+                                        --><label for="radio2">★</label><!--
+                                        --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+                                        --><label for="radio3">★</label><!--
+                                        --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+                                        --><label for="radio4">★</label><!--
+                                        --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+                                        --><label for="radio5">★</label>
+                                        </p>
+                                    </form>
+                                    <h5>Soda Estereo</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                
+                    <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col-4">
+                                <a href="https://www.youtube.com/watch?v=wfWkmURBNv8"><img class="farsanta" src="imagenes/elfarsante.jpg" width="150px" alt=""></a> 
+                                <a href="https://www.youtube.com/watch?v=KXw8CRapg7k"><img class="queen" src="imagenes/newoftheworld.jpg" width="150px" alt=""></a> 
+                            </div>
+                            <div class="col-8">
+                                <div class="romeo">
+                                    <h4>El farsante</h4>
+                                    <form>
+                                        <p class="clasificacion">
+                                        <input id="radio1" type="radio" name="estrellas" value="5"><!--
+                                        --><label for="radio1">★</label><!--
+                                        --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+                                        --><label for="radio2">★</label><!--
+                                        --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+                                        --><label for="radio3">★</label><!--
+                                        --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+                                        --><label for="radio4">★</label><!--
+                                        --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+                                        --><label for="radio5">★</label>
+                                        </p>
+                                    </form>
+                                    <h5>Romeo Santos ft. Ozuna</h5>
+                                </div>
+                                   
+                                <div class="Queen">
+                                    <h4>New of the world</h4>
+                                    <form>
+                                        <p class="clasificacion">
+                                        <input id="radio1" type="radio" name="estrellas" value="5"><!--
+                                        --><label for="radio1">★</label><!--
+                                        --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+                                        --><label for="radio2">★</label><!--
+                                        --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+                                        --><label for="radio3">★</label><!--
+                                        --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+                                        --><label for="radio4">★</label><!--
+                                        --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+                                        --><label for="radio5">★</label>
+                                        </p>
+                                    </form>
+                                    <h5>Queen</h5>
+                                </div>
+                                    
+                            </div>
+                        </div>
+                    </div>            
                 </div>
             </div>
             <div class="col-md-4">
-                <img src="https://cdnb.artstation.com/p/assets/images/images/049/149/269/large/jonbismo-jon-benet-1.jpg?1651790486" width="600px" alt="">
+                <a href="https://www.youtube.com/watch?v=10EX-_h4pYc"><img src="imagenes/ojitoslindos.jpg" width="400px" alt=""></a> 
                 <h3>Ojitos Lindos</h3>
-                <h4>Bad bunny</h4>
+                <form>
+                    <p class="clasificacion">
+                      <input id="radio1" type="radio" name="estrellas" value="5"><!--
+                      --><label for="radio1">★</label><!--
+                      --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+                      --><label for="radio2">★</label><!--
+                      --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+                      --><label for="radio3">★</label><!--
+                      --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+                      --><label for="radio4">★</label><!--
+                      --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+                      --><label for="radio5">★</label>
+                    </p>
+                </form>
+                <h5>Bad Bunny</h5>
+            </div>
+        </div>
+    </div>
+ 
+    <div class="container canciones2">
+        <div class="row">
+            <div class="col-md-4">
+                <h1 class="elige">Elige y disfruta de la musica que quieras</h1>
+                <h3 class="mayorinfo">Suscribete para mayor informacion</h3>
+                <form action="suscribirse2">
+                    <button class="btn5"><a href="suscribirse2.html">Suscribirse</a></button>
+                </form>
+            </div>
+            <div class="col-md-8 cancion2">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <a href="https://www.youtube.com/watch?v=SRm2Ch4oFWs"><img src="imagenes/parejadelaño.jpg" width="300px" height="150px"  alt=""></a>
+                        <h4>Pareja del año</h4>
+                        <form>
+                            <p class="clasificacion">
+                            <input id="radio1" type="radio" name="estrellas" value="5"><!--
+                            --><label for="radio1">★</label><!--
+                            --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+                            --><label for="radio2">★</label><!--
+                            --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+                            --><label for="radio3">★</label><!--
+                            --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+                            --><label for="radio4">★</label><!--
+                            --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+                            --><label for="radio5">★</label>
+                            </p>
+                        </form>
+                        <h5>Sebastian Yatra ft. Myke Towers</h5>
+                    
+                        <div class="row ChicoE">
+                            <div class="col-3 estrella">
+                            <a href="https://www.youtube.com/watch?v=796YqsAuzkM"><img src="imagenes/chicoestrella.jpg" width="100px"  alt=""></a>
+                            </div>
+                            <div class="col-9 duki1">
+                                <h4>Chico estrella</h4>
+                                <form>
+                                    <p class="clasificacion">
+                                    <input id="radio1" type="radio" name="estrellas" value="5"><!--
+                                    --><label for="radio1">★</label><!--
+                                    --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+                                    --><label for="radio2">★</label><!--
+                                    --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+                                    --><label for="radio3">★</label><!--
+                                    --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+                                    --><label for="radio4">★</label><!--
+                                    --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+                                    --><label for="radio5">★</label>
+                                    </p>
+                                </form>
+                                <h5>Duki</h5>
+                            </div>
+                        </div>                        
+                    </div>                
+                    <div class="col-sm-6">
+                    
+                        <a href="https://www.youtube.com/watch?v=pk7ESz6vtyA"><img src="imagenes/winterbear.jpg" width="300px" height="150px" alt=""></a>
+                        <h4>Winter Bear</h4>
+                        <form>
+                            <p class="clasificacion">
+                            <input id="radio1" type="radio" name="estrellas" value="5"><!--
+                            --><label for="radio1">★</label><!--
+                            --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+                            --><label for="radio2">★</label><!--
+                            --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+                            --><label for="radio3">★</label><!--
+                            --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+                            --><label for="radio4">★</label><!--
+                            --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+                            --><label for="radio5">★</label>
+                            </p>
+                        </form> 
+                        <h5>V(Taeyung)</h5>
+                    
+                        <div class="row Give">
+                            <div class="col-3 She">
+                            <a href="https://www.youtube.com/watch?v=W0yp3rSfx3I"><img src="imagenes/shedontgiveafo.jpg" width="100px"  alt=""></a>
+                            </div>
+                            <div class="col-9 duki2">
+                                <h4>She don't give a fo</h4>
+                                <form>
+                                    <p class="clasificacion">
+                                    <input id="radio1" type="radio" name="estrellas" value="5"><!--
+                                    --><label for="radio1">★</label><!--
+                                    --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+                                    --><label for="radio2">★</label><!--
+                                    --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+                                    --><label for="radio3">★</label><!--
+                                    --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+                                    --><label for="radio4">★</label><!--
+                                    --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+                                    --><label for="radio5">★</label>
+                                    </p>
+                                </form>
+                                <h5>Duki ft. Khea</h5>
+                            </div>
+                        </div>                 
+                    </div>           
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <h1>
-                    Elige y Disfruta de la musica que quieras!! 
-                </h1>
-                <h3>
-                    suscribete para mas informacion
-                </h3>
-                <form action="">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Subcribirse</button>
-                </form>
-            </div>
-            <div class="col-md-8">
-                <div class="col-md-7">
-                    <img src="data:image/jpeg;base64,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" alt="">
-                </div>
-                <div class="col-md-5">
-                    <h4>Flor de loto</h4>
-                    <h6>3 AM</h6>
-                </div>
-                <div class="col-md-7">
-                    <img src="data:image/jpeg;base64,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" alt="">
-                </div>
-                <div class="col-md-5">
-                    <h4>Flor de loto</h4>
-                    <h6>3 AM</h6>
-                </div>
-                <div class="col-md-4">
-                    <img src="data:image/jpeg;base64,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" alt="">
-                </div>
-                <div class="col-md-8">
-                    <h4>Flor de loto</h4>
-                    <h6>3 AM</h6>
-                </div>
-                <div class="col-md-4">
-                    <img src="data:image/jpeg;base64,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" alt="">
-                </div>
-                <div class="col-md-8">
-                    <h4>Flor de loto</h4>
-                    <h6>3 AM</h6>
+    <footer>
+        <div class="container pie">
+            <div class="row primera">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <ul class="menu2">
+                        <li class="dos"><a href="index.html">Inicio</a></li>
+                        <li class="dos"><a href="conciertos.html">Conciertos</a></li>
+                        <li class="dos"><a href="tendencias.html">Tendencias</a></li>
+                        <li class="dos"><a href="ayuda.html">Ayuda</a></li>
+                    </ul>
                 </div>
             </div>
+
+            <div class="row ultima">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">© 2022 Programadores 3</div>
+                <div class="col-md-3">
+                    <ul class="redes">
+                        <li class="tres"><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                        <li class="tres"><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                        <li class="tres"><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
+                    </ul>
+                </div>            
+            </div>
         </div>
-    </div>
-    <footer class="bg-light text-center">
-        <!-- Grid container -->
-        <div class="container p-4 pb-0">
-          <!-- Section: Form -->
-          <section class="">
-            <form action="">
-              <!--Grid row-->
-              <div class="row d-flex justify-content-center">
-                <!--Grid column-->
-                <div class="col-auto">
-                  <p class="pt-2">
-                    <strong>Sign up for our newsletter</strong>
-                  </p>
-                </div>
-                <!--Grid column-->
-      
-                <!--Grid column-->
-                <div class="col-md-5 col-12">
-                  <!-- Email input -->
-                  <div class="form-outline mb-4">
-                    <input type="email" id="form5Example27" class="form-control" />
-                    <label class="form-label" for="form5Example27">Email address</label>
-                  </div>
-                </div>
-                <!--Grid column-->
-      
-                <!--Grid column-->
-                <div class="col-auto">
-                  <!-- Submit button -->
-                  <button type="submit" class="btn btn-primary mb-4">
-                    Subscribe
-                  </button>
-                </div>
-                <!--Grid column-->
-              </div>
-              <!--Grid row-->
-            </form>
-          </section>
-          <!-- Section: Form -->
-        </div>
-        <!-- Grid container -->
-      
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2020 Copyright:
-          <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-        </div>
-        <!-- Copyright -->
-      </footer>
+    </footer>
 </body>
 </html>
